@@ -1,0 +1,148 @@
+*{box-sizing: border-box;}
+
+body {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+input,select{
+  border-radius: 100px;
+  border: none;
+  width: 100%;
+  padding: 0.5rem 1.5rem;
+  height: 6vh;
+  font-size: 1rem;
+}
+a {
+  color: #fff;
+  font-size: 14px;
+}
+/* select {
+  padding: 20px 40px;
+  margin: auto;
+  border-radius: 100px;
+  border: none;
+  margin-bottom: 30px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+} */
+button {
+  padding: 20px 40px;
+  margin: auto;
+  border-radius: 100px;
+  border: none;
+  margin-bottom: 30px;
+  width: 100%;
+  background-color: #F1C93D;
+  color: #292929;
+  font-weight: 600;
+  font-size: 14px;
+}
+.formTitle{
+  font-weight: bolder;
+  text-transform: uppercase;
+  color: #5F2F27;
+}
+h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+hr {
+  height: 6px;
+  background-color: #F1C93D;
+  border: none;
+  margin: 0 -20px 0 0;
+}
+.heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#olb {
+	/* background: linear-gradient(-45deg, #0070DB, #002d57, #1B7FA3, #0070DB); */
+  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+  background-size: 400% 400%;
+  position: relative;
+  height: auto;
+  border-radius: 30px;
+  width: 426px;
+  margin: auto;
+  margin-top: 50px;
+box-shadow: 5px 5px 10px 2px #A5A5CB;
+padding: 60px;
+}
+
+.formDiv {
+  margin-left: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row{
+  display: grid;
+align-items: center;
+gap: 2rem;
+padding: 0.5rem 1rem;
+}
+
+.formLabel {
+
+  color: darkblue;
+  font-weight: bolder;
+  font-size: 1rem;
+  margin: 0.7rem auto;
+  display: block;
+  padding: 0rem 1rem;
+}
+
+.submitBTN{
+  border-radius: 20px;
+width: 50%;
+font-size: 1.2rem;
+color: darkblue;
+font-weight: bolder;
+display: block;
+margin: 0.5rem auto;
+}
+
+.error{
+  color: red;
+  font-size: 0.8rem;
+  padding: 0rem 1rem;
+}
+.links{
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+align-items: center;
+gap: 2rem;
+margin: 2rem auto auto;
+}
+.links a{
+  text-decoration: none;
+color: black;
+font-weight: bolder;
+width: 9rem;
+display: flex;
+justify-content: center;
+}
+.links a:hover{
+  color: darkblue;
+  transform: scale(1.1);
+  
+}
+@keyframes change {
+	0%{
+		background-position: 0 50%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0 50%;
+	}
+}
